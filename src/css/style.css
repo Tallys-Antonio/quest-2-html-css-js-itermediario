@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../imagens/bg-repeat.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.duvida{
+    color: #ffffff;
+    margin-right: 60px;
+}
+
+.duvida h2{
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.duvida p{
+    width: 300px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.formulario{
+    width: 340px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.formulario div{
+    margin: 7.5px 0;
+}
+
+.input{
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    padding: 8px 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+.input::placeholder {
+    color: var(--placeholder);
+  }
+
+.input.taxtarea{
+    height: 100px;
+}
+
+.campo-obrigatorio{
+    color: var(--errado);
+    font-size: 8px;
+    display: none;
+}
+
+.errado{
+    display: block;
+}
+
+.campos{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.botao{
+    margin-top: 20px;
+    background-color: var(--botao);
+    border: none;
+    color: #ffffff;
+    width: 300px;
+    height: 42px;
+    border-radius: 5px;
+}
+
+.borda-verde{
+    border: 1px solid var(--correto);
+}
+
+.borda-vermelha{
+    border: 1px solid var(--errado);
+}
