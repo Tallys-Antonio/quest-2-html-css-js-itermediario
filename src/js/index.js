@@ -15,7 +15,9 @@ input.forEach((input, posicao) => {
     })
 })
 
-botao.addEventListener('click', () => {
+botao.addEventListener('click', (e) => {
+    e.preventDefault()
+    
     input.forEach((input, posicao) => {
         if (input.value == "") {
             campoObrigatorio[posicao].classList.add("errado")
