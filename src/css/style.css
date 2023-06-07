@@ -53,10 +53,11 @@ body{
 }
 .input::placeholder {
     color: var(--placeholder);
-  }
+}
 
 .input.taxtarea{
     height: 100px;
+    resize: none;
 }
 
 .campo-obrigatorio{

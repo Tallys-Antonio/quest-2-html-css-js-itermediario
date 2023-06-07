@@ -1,7 +1,6 @@
 const input = document.querySelectorAll(".input")
 const botao = document.querySelector(".botao")
 const campoObrigatorio = document.querySelectorAll(".campo-obrigatorio")
-console.log(campoObrigatorio)
 
 input.forEach((input, posicao) => {
     input.addEventListener("change", function () {
